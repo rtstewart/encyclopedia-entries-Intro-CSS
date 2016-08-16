@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>vertical-align</title>
+  <style type="text/css">
+    html {
+      font-size: 16px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: arial, sans-serif;
+    }
+    div {
+      margin: 1rem;
+      padding: 0.5rem;
+      /*height: 7rem;*/
+      border: 1px solid red;
+    }
+    span {
+      /*display: inline-block;*/
+      border: 1px solid blue;
+      height: 2rem;
+      padding: 0.25rem;
+    }
+    span.extra {
+      display: inline-block;
+      width: 6rem;
+      height: 6rem;
+    }
+    img {
+      border: 1px solid black;
+      width: 3rem;
+      height: 3rem;
+    }
+    code {
+      background-color: yellow;
+    }
+    /* keywords */
+    .baseline {
+      vertical-align: baseline;
+    }
+    .sub {
+      vertical-align: sub;
+    }
+    .super {
+      vertical-align: super;
+    }
+    .text-top {
+      vertical-align: text-top;
+    }
+    .text-bottom {
+      vertical-align: text-bottom;
+    }
+    .middle {
+      vertical-align: middle;
+    }
+    .top {
+      vertical-align: top;
+    }
+    .bottom {
+      vertical-align: bottom;
+    }
+
+    /* length values */
+    .rem1 {
+      vertical-align: 1rem;
+    }
+    .rem-1 {
+      vertical-align: -1rem;
+    }
+    .px20 {
+      vertical-align: 20px;
+    }
+    .px-20 {
+      vertical-align: -20px;
+    }
+
+    /* percentage values */
+    .percent200 {
+      vertical-align: 200%;
+    }
+    .percent-150 {
+      vertical-align: -150%;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>CSS vertical-align with inline elements</h1>
+  <p>Default font-size set to 16px.<br>
+  The red-outlined divs have no height specified and have 0.5rem padding all around.<br>
+  The blue-outlined spans are children of the divs, or a child of the span that is the child of the div.<br>
+  Images are 3rem X 3rem, and are children of the spans.</p>
+
+  <div><span>The image <img src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned a default/unspecified vertical alignment.</span></span></div>
+
+  <div><span>The image <img class="baseline" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: baseline;</code> - the default alignment.</span></div>
+
+  <div><span>The image<sub>&lt;sub>&lt;/sub></sub> <img class="sub" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: sub;</code> alignment.</span></div>
+
+  <div><span>The image<sup>&lt;sup>&lt;/sup></sup> <img class="super" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: sup;</code> alignment.</span></div>
+
+  <div><span>The image <img class="text-top" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: text-top;</code> alignment.</span></div>
+
+  <div><span>The image <img class="text-bottom" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: text-bottom;</code> alignment.</span></div>
+
+  <div><span>The image <img class="middle" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: middle;</code>alignment.</span></div>
+
+  <div><span>The image <img class="px20" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: 20px;</code> alignment.</span></div>
+
+  <div><span>The image <img class="px-20" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: -20px;</code> alignment.</span></div>
+
+  <div><span>The image <img class="rem1" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: 1rem;</code> alignment.</span></div>
+
+  <div><span>The image <img class="rem-1" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: -1rem;</code> alignment.</span></div>
+
+  <div><span>The image <img class="percent200" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: -200%;</code> alignment.</span></div>
+
+ <div><span>The image <img class="percent-150" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: -150%;</code> alignment.</span></div>
+
+ <div><span class="percent-150">I'm a &lt;/span> element with <code>vertical-align: -150%;</code> alignment.</span></div>
+
+ <div><span><span class="extra">I'm a child inline-block &lt;span> of the &lt;span>.</span>The image <img class="top" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: top;</code> alignment.</span></div>
+
+ <div><span><span class="extra">I'm a child inline-block &lt;span> of the &lt;span>.</span>The image <img class="bottom" src="images/nobody_m.50x50.jpg" alt="male nobody image" /> is a child of this &lt;span> and has been assigned <code>vertical-align: bottom;</code> alignment.</span></div>
+
+</body>
+</html>

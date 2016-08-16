@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>caption-side: bottom;</title>
+    <style type="text/css">
+      body {
+        font-family: arial, sans-serif;
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 1rem;
+      }
+      caption {
+        caption-side: top;
+        margin: 1rem;
+        font-weight: bold;
+      }
+      code {
+        font-size: 1.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>Valid CSS property <code>caption-side:</code> values, types, and their effects</caption>
+      <tr>
+          <th>Value</th>
+          <th>Value Type</th>
+          <th>Effect</th>
+      </tr>
+      <tr>
+          <td><code>top</code></td>
+          <td>directional</td>
+          <td>Postitions the caption above the table. This is the default.</td>
+      </tr>
+      <tr>
+          <td><code>bottom</code></td>
+          <td>directional</td>
+          <td>Postitions the caption below the table.</td>
+      </tr>
+      <tr>
+          <td><code>inherit</code></td>
+          <td>Global</td>
+          <td>This indicates that the <code>caption-side</code> value defined on the parent's element must be used.</td>
+      </tr>
+      <tr>
+          <td><code>initial</code></td>
+          <td>Global</td>
+          <td>Sets this property to the default (top) value.</td>
+      </tr>
+      <tr>
+          <td><code>unset</code></td>
+          <td>Global</td>
+          <td>Resets the property to its inherited value if inherited from its parent. If the property is not inherited, it resets the property to the default value. This is the general effect of the global/CSS-wide <em>keyword</em> <code>unset</code>.</td>
+      </tr>
+    </table>
+  </body>
+</html>

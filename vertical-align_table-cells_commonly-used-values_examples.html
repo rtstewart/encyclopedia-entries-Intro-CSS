@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>vertical-align table cells</title>
+  <style type="text/css">
+    html {
+      font-size: 16px;
+    }
+    body {
+      font-family: arial, sans-serif;
+    }
+    table {
+      border: 1px solid black;
+    }
+    td {
+      height: 7rem;
+      padding: 1rem 1rem;
+      border: 1px solid red;
+    }
+    /* keywords */
+    .middle {
+      vertical-align: middle;
+    }
+    .top {
+      vertical-align: top;
+    }
+    .bottom {
+      vertical-align: bottom;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS vertical-align with table cell, or <code>display: table-cell;</code> elements</h1>
+  <p>
+    Here's the basic CSS:
+  </p>
+  <pre>
+    html {
+      font-size: 16px;
+    }
+    body {
+      font-family: arial, sans-serif;
+    }
+    table {
+      border: 1px solid black;
+    }
+    td {
+      height: 7rem;
+      padding: 1rem 1rem;
+      border: 1px solid red;
+    }
+  </pre>
+  <table cellspacing="10px">
+    <tr>
+      <td>no alignment set;</td>
+      <td>some text</td>
+      <td>some text</td>
+    </tr>
+    <tr class="top">
+      <td><code>vertical-align: top;</code></td>
+      <td>some text</td>
+      <td>some text</td>
+    </tr>
+    <tr class="middle">
+      <td><code>vertical-align: middle;</code></td>
+      <td>some text</td>
+      <td>some text</td>
+    </tr>
+    <tr class="bottom">
+      <td><code>vertical-align: bottom;</code></td>
+      <td>some text</td>
+      <td>some text</td>
+    </tr>
+  </table>
+</body>
+</html>
