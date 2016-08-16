@@ -140,15 +140,15 @@ For inline elements, (e.g., `<span>, <img>, display: inline-block;`) `vertical-a
 
 ## Examples for Inline elements (`<span>`, `<img>`, `display: inline-block;`, etc.)
 
-View [this page](vertical-align_inline-elements_examples.html) for examples of each vertical-align setting for inline elements per the table above.
+View [this page](https://rtstewart.github.io/encyclopedia-entries-Intro-CSS/vertical-align_inline-elements_examples.html) for examples of each vertical-align setting for inline elements per the table above.
 
 ## Examples for table cell (`<td>`) or `display: table-cell;` elements.
 
-View [this page](vertical-align_table-cells_commonly-used-values_examples.html) for examples of commonly-used vertical-align settings for table cell (`<td>`) or `display: table-cell;` elements.
+View [this page](https://rtstewart.github.io/encyclopedia-entries-Intro-CSS/vertical-align_table-cells_commonly-used-values_examples.html) for examples of commonly-used vertical-align settings for table cell (`<td>`) or `display: table-cell;` elements.
 
 ## Complex
 
-The [_**last two examples here**_](vertical-align_inline-elements_examples.html) illustrate `vertical-align: top;`, and `vertical-align: bottom;` for inline elements, the effects of which are a little harder to visualize without example. Refer to the table above for the description of the effects of these two property/value pairs and observe how the `vertical-align: top;`, or `vertical-align: bottom;` aligned element lines up with either the top of the tallest element, or bottom of the lowest element, respectively, on the line and **not** relative to the parent element.
+The [_**last two examples here**_](https://rtstewart.github.io/encyclopedia-entries-Intro-CSS/vertical-align_inline-elements_examples.html) illustrate `vertical-align: top;`, and `vertical-align: bottom;` for inline elements, the effects of which are a little harder to visualize without example. Refer to the table above for the description of the effects of these two property/value pairs and observe how the `vertical-align: top;`, or `vertical-align: bottom;` aligned element lines up with either the top of the tallest element, or bottom of the lowest element, respectively, on the line and **not** relative to the parent element.
 
 ## Notes
 

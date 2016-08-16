@@ -92,11 +92,11 @@ Here is the code:
 </table>
 ```
 
-[Here is a separate HTML document with `caption-side: top` set for the same table code.](caption-side_top.html)  Notice the `<caption>` content is still on top - the default location/value - but is centered with respect to the table when used in an HTML document.
+[Here is a separate HTML document with `caption-side: top` set for the same table code.](https://rtstewart.github.io/encyclopedia-entries-Intro-CSS/caption-side_top.html)  Notice the `<caption>` content is still on top - the default location/value - but is centered with respect to the table when used in an HTML document.
 
 ## Example 2
 
-[This is an HTML document with `caption-side: bottom`.](caption-side_bottom.html) The `<caption>` content is now below the table and centered with respect to the table.
+[This is an HTML document with `caption-side: bottom`.](https://rtstewart.github.io/encyclopedia-entries-Intro-CSS/caption-side_bottom.html) The `<caption>` content is now below the table and centered with respect to the table.
 
 ## Notes
 
